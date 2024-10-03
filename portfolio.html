@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -13,6 +14,45 @@
                 font-size: 30px;
                 list-style: none;
                 margin-left: 66px;
+            }
+    
+            .project-container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin: 50px 0;
+            }
+    
+            .project-image {
+                max-width: 300px;
+                margin-right: 20px;
+            }
+    
+            .project-info {
+                max-width: 600px;
+            }
+    
+            .project-info h2 {
+                font-size: 24px;
+                color: #333;
+            }
+    
+            .project-info p {
+                font-size: 18px;
+                color: #555;
+            }
+    
+            .project-info a {
+                display: inline-block;
+                margin-top: 10px;
+                font-size: 18px;
+                text-decoration: none;
+                color: #007bff;
+            }
+    
+            .project-info a:hover {
+                text-decoration: underline;
             }
         </style>
     </head>
@@ -29,17 +69,19 @@
                     </ul>
                 </nav>
             </div>
-
-            <div id="WIP">
-                <div class="container">
-                  <div class="pW">
-                    <p class="centered-text">
-                      Will update with new projects in the near future
-                    </p>
-                  </div>
-                </div>
-              </div>
         </div>
+        <div id = "MineSweeper">
+        <div class="container"></div>
+            <div class="project-container">
+                <img src="images/MineSweeper.jpg" alt="Project Image" class="project-image">
+                <div class="project-info">
+                    <h2>Mine Sweeper</h2>
+                    <p>This app was created in order for me to learn Android Studio development. I aimed to mimic Google's version of Mine Sweeper as much as possible, and it shares much of the same features and functionality as Google's implementation.</p>
+                    <!-- <a href="https://github.com/luke-rangel/sample-project" target="_blank">View Project</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
         <footer>
             <div class="footer-content">
