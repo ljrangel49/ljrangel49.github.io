@@ -109,12 +109,12 @@ footer {
   }
   
   .footer-image {
-    width: 25px; /* Adjust the width to your desired size */
+    width: 25px; 
     height: auto;
   }
   
   .footer-text {
-    margin: 0; /* Remove any default margin */
+    margin: 0;
   }
 /*-------------------css for small screens------------*/
 @media only screen and (max-width: 600px){
